@@ -22,4 +22,9 @@ class Queues {
             return;
         }
 
+     if(FRONT == -1){
+            FRONT = 0;
+            REAR = 0;
+        }
+
       
